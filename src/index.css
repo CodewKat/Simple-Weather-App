@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  background-color: lightblue;
+
+}
+
+.nameBox{
+  margin-bottom: 10px;
+  
+  
+}
+
+.note{
+  font-style: italic;
+  font-size:  15px;
+}
+
+
+
+.weatherOutcome{
+  background-color: #e4e0e0;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 10px rgba(0,0,0,0.16);
+  border-radius: 15px;
+
+}
+
+.weatherOutcome .nameBox{
+  display:inline-block; 
+  padding: 25px 25px;
+  position: absolute;
+
+}
+
+.icon{
+  margin: 80px auto;
+  position: absolute;
+}
+
+.weatherIcon{
+  width: 85px;
+  height: auto;
+}
+
+.weatherOutcome .temp{
+  display: block;
+  margin: 150px auto;
+  position: absolute;
+  font-weight: bold;
+  font-size:x-large;
+
+}
+
+.weatherOutcome .weather{
+  display: inline-block;
+  margin: 180px auto;
+  position: absolute;
+}
+
+.customMessage{
+  display: block;
+  font-style: italic;
+  margin: 240px auto;
+  position: absolute;
+}
+
+.refreshBtn{
+  margin: 280px auto;
+}
